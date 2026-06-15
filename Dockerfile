@@ -1,4 +1,4 @@
-FROM invalid-image
+FROM python:3.11-slim
 
 WORKDIR /app
 
