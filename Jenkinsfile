@@ -33,7 +33,7 @@ pipeline {
             emailext(
                 subject: "Jenkins Build Failed",
                 body: "The Docker build has failed.",
-                to: "your-email@gmail.com"
+                to: "yadhukrishna.pr.61@gmail.com"
             )
 
             slackSend(
